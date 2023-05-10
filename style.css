@@ -102,4 +102,21 @@ p{
     border-radius: 5px;
 }
 
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 150px 200px;
+    color: #1F2937;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author{
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: right;
+}
+
 
