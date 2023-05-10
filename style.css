@@ -2,6 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("img/background.jpg");
+    background-size: cover;
 }
 
 h1{
@@ -13,7 +15,7 @@ h1{
 h2{
     font-size: 32px;
     font-weight: bolder;
-    color: #1F2937
+    color: #F9FAF8;
 }
 
 h3{
@@ -32,10 +34,13 @@ p{
 .header, .footer{
     display: flex;
     padding: 20px 150px;  
-    background-color: #1F2937;
     gap: 16px;
     align-items: center;
     text-align: center;
+}
+
+.header{
+    background-color: #1f29377e;
 }
 
 .footer{
@@ -59,7 +64,7 @@ p{
 .introduction{
     display: flex;
     padding: 80px 150px 100px;
-    background-color: #1F2937;
+    background-color: #1f29377e;
     justify-content: center;
     row-gap: 30px;
     column-gap: 70px;
@@ -72,12 +77,10 @@ p{
 }
 
 .introduction .right{
-    display: flex;
-    background-color: #acafb360;
-    justify-content: center;
-    align-items: center;
-    color: white;
     flex: 0 0 auto;
+    width: 450px;
+    min-height: 250px;
+    height: 250px;
 }
 
 .sign-up-bt{
@@ -87,8 +90,9 @@ p{
     padding: 6px 24px;
     border-radius: 5px;
     border: 0;
-
+    cursor: pointer;
 }
+
 .info-section{
     padding: 50px;
     text-align: center;
@@ -107,39 +111,48 @@ p{
     align-items: center;
 }
 
-.info p{
-    color: #1F2937;
-}
-
 .info-img{
     width: 150px;
     height: 150px;
 
-    border: #3882F6;
+    border: #1f29377e;
     border-style: solid;
     border-width: 5px;
     border-radius: 5px;
 }
 
+.info h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
 .quote-section{
-    background-color: #E5E7EB;
+    background-color: #e5e7eb73;
     padding: 150px 200px;
-    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section div{
+    max-width: fit-content;
 }
 
 .quote{
     font-size: 36px;
     font-style: italic;
+    color: #1F2937;
 }
 
 .author{
     font-weight: bolder;
+    text-align: end;
     font-size: 24px;
-    text-align: right;
+    margin: 10px 0 0;
+    color: #1F2937;
 }
 
 .sign-up-section{
-    margin: 100px;
+    margin: 100px 100px 50px;
     padding: 40px 50px;
     background-color: #3882F6;
     border-radius: 5px;
