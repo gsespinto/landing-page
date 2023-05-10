@@ -61,12 +61,13 @@ p{
     padding: 80px 150px 100px;
     background-color: #1F2937;
     justify-content: center;
-    gap: 30px;
+    row-gap: 30px;
+    column-gap: 70px;
     flex-wrap: wrap;
 }
 
 .introduction div{
-    width: 400px;
+    width: 450px;
     min-height: 250px;
 }
 
