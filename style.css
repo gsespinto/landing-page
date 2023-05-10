@@ -16,6 +16,13 @@ h2{
     color: #1F2937
 }
 
+h3{
+    font-size: 26px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
 p{
     font-size: 18px;
     color: #E5E7EB;
@@ -65,11 +72,12 @@ p{
 .sign-up-bt{
     background-color: #3882F6;
     color: white;
+    font-weight: bold;
     padding: 6px 24px;
     border-radius: 5px;
     border: 0;
-}
 
+}
 .info-section{
     padding: 50px;
     text-align: center;
@@ -119,4 +127,24 @@ p{
     text-align: right;
 }
 
+.sign-up-section{
+    margin: 100px;
+    padding: 30px 50px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-up-section .sign-up-bt{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;    
+}
+
+.sign-up-text p{
+    margin: 0;
+    padding: 0;
+}
 
