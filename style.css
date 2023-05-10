@@ -61,11 +61,13 @@ p{
     padding: 80px 150px 100px;
     background-color: #1F2937;
     justify-content: center;
-    gap: 100px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .introduction div{
-    width: 450px;
+    width: 400px;
+    min-height: 250px;
 }
 
 .introduction .right{
@@ -74,6 +76,7 @@ p{
     justify-content: center;
     align-items: center;
     color: white;
+    flex: 0 0 auto;
 }
 
 .sign-up-bt{
@@ -136,7 +139,7 @@ p{
 
 .sign-up-section{
     margin: 100px;
-    padding: 30px 50px;
+    padding: 40px 50px;
     background-color: #3882F6;
     border-radius: 5px;
     display: flex;
