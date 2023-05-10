@@ -4,8 +4,15 @@ body{
     padding: 0;
 }
 
+h1{
+    font-size: 40px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
 p{
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header{
@@ -27,4 +34,32 @@ p{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.introduction{
+    display: flex;
+    padding: 80px 150px 100px;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 100px;
+}
+
+.introduction div{
+    width: 450px;
+}
+
+.introduction .right{
+    display: flex;
+    background-color: #acafb360;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sign-up-bt{
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 5px;
+    border: 0;
 }
